@@ -1,0 +1,125 @@
+.section {
+  background: linear-gradient(180deg, transparent, rgba(201, 168, 76, 0.025), transparent);
+}
+
+.head {
+  margin-bottom: 3rem;
+  max-width: 720px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 720px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1080px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  position: relative;
+  padding: 2rem 1.75rem 2.25rem;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: transform 320ms ease, border-color 320ms ease;
+}
+
+.cardFeatured {
+  background: linear-gradient(135deg, #1a1612 0%, #161616 60%);
+  border-color: rgba(201, 168, 76, 0.32);
+}
+
+.cardFeatured .title {
+  font-size: clamp(1.6rem, 2.4vw, 2.1rem);
+}
+
+.cardFeatured .desc {
+  font-size: 1.02rem;
+  max-width: 60ch;
+}
+
+@media (min-width: 720px) {
+  .cardFeatured {
+    grid-column: 1 / -1;
+    padding: 2.5rem 2.25rem 2.75rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem 2.5rem;
+    align-items: center;
+  }
+  .cardFeatured .badge {
+    margin-bottom: 0;
+    align-self: center;
+  }
+  .cardFeatured .title {
+    grid-column: 2;
+    margin-bottom: 0.5rem;
+  }
+  .cardFeatured .desc {
+    grid-column: 2;
+  }
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top right, rgba(201, 168, 76, 0.07), transparent 60%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 320ms ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(201, 168, 76, 0.35);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--gold);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+}
+
+.desc {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.corner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 28px;
+  height: 28px;
+  border-top: 1px solid var(--gold);
+  border-right: 1px solid var(--gold);
+  opacity: 0.45;
+}
