@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://bistrosapa.com/sitemap.xml
+Sitemap: https://bistro-sapa.vercel.app/sitemap.xml
