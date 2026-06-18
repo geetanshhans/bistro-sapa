@@ -29,17 +29,17 @@
     "heading_vi": "Một quán bar thân thuộc giữa lòng Sa Pa.",
     "body": [
       "We opened bistro.sapa with a simple idea: a warm room where travellers and locals could share a craft beer, a properly mixed cocktail, and honest food made from scratch — all under one rustic roof of timber, stone, and candlelight.",
-      "The bar pours Vietnamese craft beer from Furbrew, East West and Heart of Darkness, alongside a tight cocktail list, a curated wine cellar, and Sin Chai — Vietnam's own Sa Pa plum liqueur. From the kitchen come Australian-style pastries, hand-cut sandwiches, sharing platters and our beloved Bistro's Burger. Live music most evenings."
+      "The bar pours Heart of Darkness and Overmorrow craft beers, Signature and Classic cocktails, our own Bistro Red and Bistro White house wines, and a spirits range from Jameson to Macallan. From the open kitchen come ciabatta sandwiches built on bread we bake daily, Ta Van mountain-smoked meats, sharing platters, Australian meat pies, and our Homemade Burger — buns and patties made from scratch. Café service from 9 to 6. Live music most evenings."
     ],
     "body_vi": [
       "Chúng tôi mở bistro.sapa với một ý tưởng đơn giản: một không gian ấm cúng nơi du khách và người dân địa phương có thể cùng nhâm nhi craft beer, thưởng thức cocktail pha chế tinh tế, và những món ăn được làm thủ công — tất cả dưới một mái nhà mộc mạc bằng gỗ, đá và ánh nến.",
-      "Quán bar phục vụ craft beer Việt Nam từ Furbrew, East West và Heart of Darkness, cùng với danh sách cocktail chọn lọc, hầm rượu vang được tuyển chọn kỹ lưỡng, và Sin Chai — rượu mận Sa Pa của Việt Nam. Từ bếp đến những món bánh kiểu Úc, sandwich, đĩa chia sẻ và món Bistro's Burger trứ danh. Nhạc sống hầu hết các tối."
+      "Quầy bar phục vụ craft beer từ Heart of Darkness và Overmorrow, cocktail Signature và Classic, hai dòng vang nhà Bistro Red và Bistro White, cùng dải rượu mạnh từ Jameson đến Macallan. Từ bếp mở: sandwich ciabatta trên bánh mì nướng mỗi ngày, thịt hun khói Ta Van, đĩa chia sẻ, bánh nhân thịt kiểu Úc, và Homemade Burger với bánh & patty hoàn toàn tự làm. Cà phê phục vụ 9h–18h. Nhạc sống hầu hết các tối."
     ],
     "image": "/images/about-table.webp",
     "imageAlt": "A quiet candlelit corner table at bistro.sapa with traditional Hmong artwork above",
     "facts": [
       { "label": "Established", "label_vi": "Khai trương", "value": "2023" },
-      { "label": "On the menu", "label_vi": "Trên thực đơn", "value": "60+ items" , "value_vi": "60+ món" },
+      { "label": "On the menu", "label_vi": "Trên thực đơn", "value": "80+ items", "value_vi": "80+ món" },
       { "label": "Open", "label_vi": "Giờ mở cửa", "value": "Daily, 10am – Midnight", "value_vi": "Mỗi ngày, 10h – 24h" }
     ]
   },
@@ -48,123 +48,177 @@
       "id": "cocktails",
       "label": "Cocktails",
       "label_vi": "Cocktail",
-      "blurb": "Classics done properly, plus a handful of bistro signatures. All measures, all the care.",
-      "blurb_vi": "Cocktail cổ điển pha đúng chuẩn, cùng vài món signature của bistro. Đúng tỷ lệ, đúng tinh thần.",
+      "blurb": "Ten Signatures from our bar program at a flat ₫190k, plus the eleven classics done properly at ₫165k.",
+      "blurb_vi": "Mười cocktail Signature từ quầy bar — đồng giá 190k. Và mười một classic được pha đúng chuẩn — đồng giá 165k.",
       "items": [
-        { "id": "c1", "name": "Old Fashioned", "description": "Bourbon, angostura bitters, orange, sugar — muddled & stirred over rock", "price": "155", "available": true, "strength": { "bitter": 1, "sweet": 2, "sour": 0, "strong": 3 } },
-        { "id": "c2", "name": "Negroni", "description": "Campari, gin, sweet red vermouth — stirred over rock", "price": "165", "available": true, "strength": { "bitter": 3, "sweet": 1, "sour": 0, "strong": 3 } },
-        { "id": "c3", "name": "Espresso Martini", "description": "Vodka, Kahlúa, fresh espresso — shaken hard", "price": "145", "available": true, "strength": { "bitter": 1, "sweet": 2, "sour": 0, "strong": 2 } },
-        { "id": "c4", "name": "Singapore Sling", "description": "Gin, cherry liqueur, Cointreau, angostura, grenadine, orange & lime", "price": "160", "available": true, "strength": { "bitter": 0, "sweet": 2, "sour": 2, "strong": 2 } },
-        { "id": "c5", "name": "Margarita", "description": "Tequila, Cointreau, lime juice — shaken", "price": "140", "available": true, "strength": { "bitter": 0, "sweet": 1, "sour": 3, "strong": 2 } },
-        { "id": "c6", "name": "Mojito", "description": "Rum, mint, sugar, soda, lime — muddled & topped up", "price": "140", "available": true, "strength": { "bitter": 0, "sweet": 2, "sour": 2, "strong": 1 } },
-        { "id": "c7", "name": "Tequila Sunrise", "description": "Tequila, orange juice, grenadine syrup — built tall", "price": "145", "available": true, "image": "/images/cocktail-corona.webp", "strength": { "bitter": 0, "sweet": 3, "sour": 0, "strong": 1 } },
-        { "id": "c8", "name": "Amaretto Sour", "description": "Amaretto, lime juice, simple syrup — shaken on the rock", "price": "135", "available": true, "strength": { "bitter": 0, "sweet": 2, "sour": 3, "strong": 1 } },
-        { "id": "c9", "name": "Whisky Sour", "description": "Whisky, lime, simple syrup, egg white on request", "price": "140", "available": true, "strength": { "bitter": 0, "sweet": 1, "sour": 3, "strong": 2 } },
-        { "id": "c10", "name": "Jungle Bird", "description": "Rum, Campari, pineapple, lime, simple syrup", "price": "165", "available": true, "strength": { "bitter": 2, "sweet": 2, "sour": 1, "strong": 2 } },
-        { "id": "c11", "name": "Japanese Slipper", "description": "Midori, lime, simple syrup — shaken into a martini glass", "price": "145", "available": true, "image": "/images/cocktail-smoke.webp", "strength": { "bitter": 0, "sweet": 3, "sour": 1, "strong": 2 } },
-        { "id": "c12", "name": "Southside", "description": "Gin, mint, lime, simple syrup — shaken into a margarita glass", "price": "145", "available": true, "strength": { "bitter": 0, "sweet": 1, "sour": 2, "strong": 2 } },
-        { "id": "c13", "name": "Elderflower Collins", "description": "Vodka, elderflower syrup, club soda, lime", "price": "150", "available": true, "strength": { "bitter": 0, "sweet": 2, "sour": 1, "strong": 1 } },
-        { "id": "c14", "name": "Ankle Breaker", "description": "Rum, cherry liqueur, lime, simple syrup — over rock", "price": "165", "available": true, "strength": { "bitter": 0, "sweet": 2, "sour": 1, "strong": 2 } },
-        { "id": "c15", "name": "Skeleton Key", "description": "Bourbon, elderflower syrup, ginger beer, angostura, lime — shaken & topped", "price": "190", "available": true, "strength": { "bitter": 1, "sweet": 2, "sour": 1, "strong": 2 } },
-        { "id": "c16", "name": "Adios Mother F*cker", "description": "Vodka, rum, gin, tequila, blue curaçao, lime, simple syrup, Sprite", "price": "190", "available": true, "strength": { "bitter": 0, "sweet": 2, "sour": 1, "strong": 3 } }
+        { "id": "sg1", "name": "Elder Collin", "description": "Vodka, elderflower, soda — long, dry, floral", "price": "190", "available": true, "group": "Signature · ₫190k" },
+        { "id": "sg2", "name": "Sapa Slipper", "description": "Melon brandy, lime — fresh, mountain-green", "price": "190", "available": true, "group": "Signature · ₫190k" },
+        { "id": "sg3", "name": "Aperol Spritz", "description": "Aperol, Prosecco — Italian aperitivo, bittersweet", "price": "190", "available": true, "group": "Signature · ₫190k" },
+        { "id": "sg4", "name": "Dopee", "description": "Whisky, elder, pineapple — tropical with backbone", "price": "190", "available": true, "group": "Signature · ₫190k" },
+        { "id": "sg5", "name": "Yogurtini", "description": "Aperol, yogurt, matcha, mango — creamy, sour, surprising", "price": "190", "available": true, "group": "Signature · ₫190k" },
+        { "id": "sg6", "name": "Forest", "description": "Vodka, elder, brandy, cucumber — botanical and clean", "price": "190", "available": true, "group": "Signature · ₫190k" },
+        { "id": "sg7", "name": "Morelastone", "description": "Gin, lime, mint — our take on the Southside", "price": "190", "available": true, "group": "Signature · ₫190k" },
+        { "id": "sg8", "name": "Adios M.F", "description": "Tequila, gin, vodka, rum, brandy, Sprite — proceed with care", "price": "190", "available": true, "group": "Signature · ₫190k" },
+        { "id": "sg9", "name": "Rum Eggnog", "description": "Rum, chocolate, cream, egg — dessert in a glass", "price": "190", "available": true, "group": "Signature · ₫190k" },
+        { "id": "sg10", "name": "Bailey Coffee", "description": "Baileys, café, chocolate, cream — espresso martini's softer cousin", "price": "190", "available": true, "group": "Signature · ₫190k" },
+
+        { "id": "cl1", "name": "Mojito", "description": "Rum, mint, sugar, soda, lime", "price": "165", "available": true, "group": "Classic · ₫165k", "strength": { "bitter": 0, "sweet": 2, "sour": 2, "strong": 1 } },
+        { "id": "cl2", "name": "Margarita", "description": "Tequila, Cointreau, lime — shaken", "price": "165", "available": true, "group": "Classic · ₫165k", "strength": { "bitter": 0, "sweet": 1, "sour": 3, "strong": 2 } },
+        { "id": "cl3", "name": "Singapore Sling", "description": "Gin, cherry liqueur, Cointreau, angostura, grenadine, orange & lime", "price": "165", "available": true, "group": "Classic · ₫165k", "strength": { "bitter": 0, "sweet": 2, "sour": 2, "strong": 2 } },
+        { "id": "cl4", "name": "Old Fashion", "description": "Bourbon, angostura, orange, sugar — muddled & stirred over rock", "price": "165", "available": true, "group": "Classic · ₫165k", "strength": { "bitter": 1, "sweet": 2, "sour": 0, "strong": 3 } },
+        { "id": "cl5", "name": "Whiskey Sour", "description": "Whisky, lime, simple syrup — egg white on request", "price": "165", "available": true, "group": "Classic · ₫165k", "strength": { "bitter": 0, "sweet": 1, "sour": 3, "strong": 2 } },
+        { "id": "cl6", "name": "Espresso Martini", "description": "Vodka, Kahlúa, fresh espresso — shaken hard", "price": "165", "available": true, "group": "Classic · ₫165k", "strength": { "bitter": 1, "sweet": 2, "sour": 0, "strong": 2 } },
+        { "id": "cl7", "name": "Negroni", "description": "Campari, gin, sweet red vermouth — stirred over rock", "price": "165", "available": true, "group": "Classic · ₫165k", "strength": { "bitter": 3, "sweet": 1, "sour": 0, "strong": 3 } },
+        { "id": "cl8", "name": "Long Island", "description": "Vodka, gin, rum, tequila, triple sec, lemon, cola — built tall", "price": "165", "available": true, "group": "Classic · ₫165k", "strength": { "bitter": 0, "sweet": 2, "sour": 1, "strong": 3 } },
+        { "id": "cl9", "name": "Tequila Sunrise", "description": "Tequila, orange juice, grenadine — built tall", "price": "165", "available": true, "image": "/images/cocktail-corona.webp", "group": "Classic · ₫165k", "strength": { "bitter": 0, "sweet": 3, "sour": 0, "strong": 1 } },
+        { "id": "cl10", "name": "Hot Rum Toddy", "description": "Dark rum, lemon, honey, cloves — served warm", "price": "165", "available": true, "group": "Classic · ₫165k", "strength": { "bitter": 0, "sweet": 2, "sour": 1, "strong": 2 } },
+        { "id": "cl11", "name": "Irish Coffee", "description": "Jameson, brown sugar, hot coffee, cream float", "price": "165", "available": true, "group": "Classic · ₫165k", "strength": { "bitter": 1, "sweet": 2, "sour": 0, "strong": 2 } }
       ]
     },
     {
       "id": "spirits-wine",
       "label": "Spirits & Wine",
       "label_vi": "Rượu mạnh & Vang",
-      "blurb": "A short but considered list — whiskies from around the world, wines from old vines and new, sold by glass or bottle.",
-      "blurb_vi": "Danh sách ngắn nhưng tinh tuyển — whisky từ khắp thế giới, rượu vang từ những vườn nho lâu đời, phục vụ theo ly hoặc chai.",
+      "blurb": "Spirits by the shot or the bottle — every bottle comes with a free platter. Wines under our Bistro house labels alongside imports from France, Italy and Australia.",
+      "blurb_vi": "Rượu mạnh theo shot hoặc chai — mỗi chai đi kèm một đĩa nhắm miễn phí. Vang dưới hai nhãn nhà Bistro cùng vang nhập từ Pháp, Ý và Úc.",
       "items": [
-        { "id": "s1", "name": "The Macallan 12 Sherry Oak", "description": "Single malt, sherry-aged — glass / bottle", "price": "440 / 10,050", "available": true, "group": "Whisky" },
-        { "id": "s2", "name": "Johnnie Walker Gold Label", "description": "Blended Scotch — glass / bottle", "price": "170 / 2,630", "available": true, "group": "Whisky" },
-        { "id": "s3", "name": "Wild Turkey Rye", "description": "Kentucky rye whiskey — glass / bottle", "price": "140 / 2,450", "available": true, "group": "Whisky" },
-        { "id": "s4", "name": "Jameson", "description": "Irish blended whiskey — glass / bottle", "price": "90 / 1,090", "available": true, "group": "Whisky" },
-        { "id": "s5", "name": "Hendrick's Gin", "description": "Scottish small-batch — glass / bottle", "price": "140 / 2,380", "available": true, "group": "Gin" },
-        { "id": "s6", "name": "Tanqueray", "description": "London dry gin — glass / bottle", "price": "100 / 1,290", "available": true, "group": "Gin" },
-        { "id": "s7", "name": "Lady Trieu — Sapa Citrus Tea", "description": "Hanoi craft gin, distilled with Sa Pa citrus & tea — glass / bottle", "price": "110 / 1,910", "available": true, "group": "Gin" },
-        { "id": "s8", "name": "The Kraken Black Spiced", "description": "Caribbean spiced rum — glass / bottle", "price": "150 / 2,170", "available": true, "group": "Rum" },
-        { "id": "s9", "name": "Captain Morgan Dark", "description": "Jamaica, rich molasses — glass / bottle", "price": "100 / 1,360", "available": true, "group": "Rum" },
-        { "id": "s10", "name": "Hennessy V.S.O.P.", "description": "Cognac, four years aged — glass / bottle", "price": "210 / 3,630", "available": true, "group": "Cognac" },
-        { "id": "s11", "name": "Don Julio Tequila", "description": "Reposado from Jalisco — glass / bottle", "price": "180 / 3,200", "available": true, "group": "Tequila" },
-        { "id": "s12", "name": "Grey Goose Vodka", "description": "French, wheat distilled — glass / bottle", "price": "120 / 1,880", "available": true, "group": "Vodka" },
-        { "id": "s13", "name": "Charles Roux Blanc de Blancs", "description": "France. Crisp peaches, yellow apricots, green apples. Glass / bottle", "price": "145 / 850", "available": true, "group": "Sparkling" },
-        { "id": "s14", "name": "Mionetto Prosecco", "description": "Veneto, Italy. Sparkling, golden apples, peach. Bottle", "price": "750", "available": true, "group": "Sparkling" },
-        { "id": "s15", "name": "Heggies Vineyard Riesling '22", "description": "Eden Valley, Australia. Citrus blossom, slate. Bottle", "price": "1,100", "available": true, "group": "White Wine" },
-        { "id": "s16", "name": "Tini Grecanico Pinot Grigio Terre Siciliane", "description": "Sicily, Italy. Apples, pears, grapefruit. Glass / bottle", "price": "120 / 680", "available": true, "group": "White Wine" },
-        { "id": "s17", "name": "Louis Latour Pinot Noir", "description": "Valmoissine, France. Silky, attractive, unforgettable. Glass / bottle", "price": "145 / 910", "available": true, "group": "Red Wine" },
-        { "id": "s18", "name": "Tini Sangiovese Cabernet Rubicone '22", "description": "Italy. Plum, cherry, raspberry. Medium-strong red. Glass / bottle", "price": "120 / 680", "available": true, "group": "Red Wine" },
-        { "id": "s19", "name": "Barramundi Shiraz 2020", "description": "Australia. Raspberry, blueberry, peppery spice. Glass / bottle", "price": "135 / 830", "available": true, "group": "Red Wine" },
-        { "id": "s20", "name": "Pure Mirabeau Rosé", "description": "Provence, France. Pink grapefruit & kumquat. Bottle", "price": "1,100", "available": true, "group": "Rosé" },
-        { "id": "s21", "name": "Premius Bordeaux Rosé 2022", "description": "France. Red fruits, rose & white grapefruit. Glass / bottle", "price": "145 / 850", "available": true, "group": "Rosé" }
+        { "id": "wh1", "name": "Jameson", "description": "Irish blended whiskey. Single 40ml ₫120 · Double 80ml ₫230", "price": "shot 90 / btl 1,850", "available": true, "group": "Whisky" },
+        { "id": "wh2", "name": "Ballentine Finest", "description": "Scotch blended whisky. Single ₫125 · Double ₫240", "price": "shot 95 / btl 1,950", "available": true, "group": "Whisky" },
+        { "id": "wh3", "name": "Johnnie Walker Black Label", "description": "12-year blended Scotch. Single ₫150 · Double ₫280", "price": "shot 120 / btl 2,750", "available": true, "group": "Whisky" },
+        { "id": "wh4", "name": "Wild Turkey 8YO", "description": "Kentucky bourbon. Single ₫165 · Double ₫320", "price": "shot 135 / btl 3,050", "available": true, "group": "Whisky" },
+        { "id": "wh5", "name": "The Macallan 12YO", "description": "Highland single malt, sherry oak. Single ₫380 · Double ₫750", "price": "shot 350 / btl 8,450", "available": true, "group": "Whisky" },
+
+        { "id": "rm1", "name": "Kingston 62 White", "description": "Jamaica, light. Single ₫125 · Double ₫240", "price": "shot 95 / btl 1,950", "available": true, "group": "Rum" },
+        { "id": "rm2", "name": "Kingston 62 Gold", "description": "Jamaica, aged. Single ₫125 · Double ₫240", "price": "shot 95 / btl 1,950", "available": true, "group": "Rum" },
+        { "id": "rm3", "name": "The Kraken", "description": "Caribbean black spiced rum. Single ₫155 · Double ₫290", "price": "shot 135 / btl 3,050", "available": true, "group": "Rum" },
+
+        { "id": "vd1", "name": "Smirnoff", "description": "Russian-style triple-distilled vodka. Single ₫120 · Double ₫230", "price": "shot 90 / btl 1,850", "available": true, "group": "Vodka" },
+        { "id": "vd2", "name": "Vietnamese Nhau", "description": "Local distillate, neat. Single ₫125 · Double ₫230", "price": "shot 95 / btl 1,950", "available": true, "group": "Vodka" },
+
+        { "id": "gn1", "name": "Gordon's Gin", "description": "London dry. Single ₫120 · Double ₫230", "price": "shot 90 / btl 1,850", "available": true, "group": "Gin" },
+        { "id": "gn2", "name": "Bulldog", "description": "London dry, twelve botanicals. Single ₫125 · Double ₫240", "price": "shot 95 / btl 1,950", "available": true, "group": "Gin" },
+        { "id": "gn3", "name": "Lady Trieu Origin", "description": "Hanoi craft gin. Single ₫150 · Double ₫280", "price": "shot 120 / btl 2,750", "available": true, "group": "Gin" },
+        { "id": "gn4", "name": "Lady Trieu Sapa", "description": "Distilled with Sa Pa citrus and tea. Single ₫150 · Double ₫280", "price": "shot 135 / btl 3,050", "available": true, "group": "Gin" },
+
+        { "id": "tq1", "name": "Jose Cuervo Silver", "description": "Blanco tequila. Single ₫125 · Double ₫230", "price": "shot 95 / btl 1,950", "available": true, "group": "Tequila" },
+        { "id": "tq2", "name": "Jose Cuervo Gold", "description": "Oak-rested tequila. Single ₫125 · Double ₫230", "price": "shot 95 / btl 1,950", "available": true, "group": "Tequila" },
+        { "id": "tq3", "name": "1800 Reposado", "description": "Aged six months in oak. Single ₫210 · Double ₫400", "price": "shot 180 / btl 4,050", "available": true, "group": "Tequila" },
+
+        { "id": "ss1", "name": "Skyy Vodka Shot", "description": "Citrus-led, ice-cold pour", "price": "99", "available": true, "group": "Special Shot · ₫99k" },
+        { "id": "ss2", "name": "Mystery Shot (?!)", "description": "Bartender's choice — ask what's pouring tonight", "price": "99", "available": true, "group": "Special Shot · ₫99k" },
+        { "id": "ss3", "name": "B5", "description": "House shot, layered five ways", "price": "99", "available": true, "group": "Special Shot · ₫99k" },
+
+        { "id": "hw1", "name": "Bistro Red", "description": "Our house red. Merlot, Cabernet Franc — soft, plummy, easy", "price": "165 / 950", "available": true, "group": "House Wine · glass 120ml / btl 750ml" },
+        { "id": "hw2", "name": "Bistro White", "description": "Our house white. Chardonnay, Mauzac, Chenin — bright, peach, citrus", "price": "165 / 950", "available": true, "group": "House Wine · glass 120ml / btl 750ml" },
+        { "id": "hw3", "name": "Tini Sangiovese Cabernet", "description": "Italy. Plum, cherry, raspberry", "price": "155 / 890", "available": true, "group": "House Wine · glass 120ml / btl 750ml" },
+        { "id": "hw4", "name": "Tini Pinot Grigio", "description": "Italy. Apple, pear, light grapefruit", "price": "155 / 890", "available": true, "group": "House Wine · glass 120ml / btl 750ml" },
+        { "id": "hw5", "name": "Barramundi Shiraz", "description": "Australia. Dark fruit, peppery spice", "price": "175 / 1,050", "available": true, "group": "House Wine · glass 120ml / btl 750ml" },
+        { "id": "hw6", "name": "Barramundi Chardonnay", "description": "Australia. Tropical fruit, lemon, melon", "price": "175 / 1,050", "available": true, "group": "House Wine · glass 120ml / btl 750ml" },
+        { "id": "hw7", "name": "Louis Latour Pinot Noir", "description": "France. Silky, attractive, unforgettable", "price": "220 / 1,350", "available": true, "group": "House Wine · glass 120ml / btl 750ml" },
+
+        { "id": "rs1", "name": "Bistro Rosé", "description": "Our house rosé. Syrah, Malbec, Merlot — dry, summery", "price": "165 / 950", "available": true, "group": "Rosé · glass 120ml / btl 750ml" },
+        { "id": "rs2", "name": "La Vieille Ferme", "description": "France. Cinsault, Grenache, Syrah — Provence-style", "price": "210 / 1,250", "available": true, "group": "Rosé · glass 120ml / btl 750ml" },
+
+        { "id": "sp1", "name": "Prosseco", "description": "Italy. Glera grape — golden apples, peach, light bubble", "price": "220 / 1,350", "available": true, "group": "Sparkling · glass 120ml / btl 750ml" }
       ]
     },
     {
       "id": "beer-na",
-      "label": "Beer & Non-Alcoholic",
-      "label_vi": "Bia & Đồ uống không cồn",
-      "blurb": "Vietnam's craft beer scene is booming. We pour from Furbrew, East West, Heart of Darkness and Bia Craft — plus juices, coffee and Sin Chai's plum liqueur.",
-      "blurb_vi": "Craft beer Việt Nam đang bùng nổ. Chúng tôi phục vụ Furbrew, East West, Heart of Darkness và Bia Craft — cùng nước ép, cà phê và rượu mận Sin Chai.",
+      "label": "Beer & Café",
+      "label_vi": "Bia & Cà phê",
+      "blurb": "Vietnamese craft beer from Heart of Darkness and Overmorrow, Sapporo on draft, plus a full café service from 9am to 6pm.",
+      "blurb_vi": "Craft beer Việt Nam từ Heart of Darkness và Overmorrow, Sapporo bia tươi, cùng menu cà phê phục vụ từ 9h sáng đến 6h tối.",
       "items": [
-        { "id": "b1", "name": "East West Pale Ale", "description": "Saigon. Floral, citrus, stone fruit and lime — ABV 6%", "price": "120", "available": true, "image": "/images/craft-beer.webp" },
-        { "id": "b2", "name": "Kurtz's Insane IPA — Heart of Darkness", "description": "Hoppy with grapefruit and piney tones — ABV 7.1%", "price": "125", "available": true },
-        { "id": "b3", "name": "Hồ Ly Water Brut IPA", "description": "Passionfruit, gooseberry, white grape, crisp mouthfeel — ABV 7%", "price": "120", "available": true },
-        { "id": "b4", "name": "Quietest Creature Lemongrass Wit", "description": "Heart of Darkness. Fresh lemongrass and coriander — ABV 4.8%", "price": "130", "available": true },
-        { "id": "b5", "name": "Eloquent Phantom Imperial Stout", "description": "Four hops, three malts, two sugars, two spirits — ABV 11%", "price": "140", "available": true },
-        { "id": "b6", "name": "Sơn Sette Grisette Ale", "description": "Effervescent, rustic grain, berry & Vietnamese pepper — ABV 5%", "price": "125", "available": true },
-        { "id": "b7", "name": "East West Pacific Pilsner", "description": "Cracker-like malt, citrus, light dry-hopping — ABV 5%", "price": "110", "available": true },
-        { "id": "b8", "name": "Bia Craft Tropical", "description": "Tropical fruit, hops, natural mango & passionfruit — ABV 5%", "price": "115", "available": true },
-        { "id": "b9", "name": "Sapporo Premium", "description": "Japan's oldest brewer — 330ml / 500ml", "price": "60 / 85", "available": true },
-        { "id": "b10", "name": "Sin Chai — Sapa Plum Liqueur", "description": "Sa Pa's own. Tropical Temptation, 25% alc — 200ml", "price": "220", "available": true },
-        { "id": "b11", "name": "Da Lat Hard Apple Cider", "description": "Apple, pineapple or berries. From the farms of Đà Lạt — per can", "price": "95", "available": true },
-        { "id": "b12", "name": "Fever-Tree Tonic / Ginger Beer", "description": "Premium British mixers — per bottle", "price": "85", "available": true },
-        { "id": "b13", "name": "Vietnamese Cà Phê — Nâu Đá", "description": "Ice coffee with condensed milk, the classic", "price": "45", "available": true },
-        { "id": "b14", "name": "Hot Coconut Coffee", "description": "Bistro's special — robusta, coconut cream, sugar", "price": "65", "available": true },
-        { "id": "b15", "name": "Fresh Juice", "description": "Orange · pineapple · lime — squeezed to order", "price": "55", "available": true }
+        { "id": "hod1", "name": "Tropical", "description": "Lager 5% — clean, refreshing, easy-drinking", "price": "155", "available": true, "image": "/images/craft-beer.webp", "group": "Heart of Darkness" },
+        { "id": "hod2", "name": "Dream Alone", "description": "Ale 4.3% — light bodied, sessionable", "price": "165", "available": true, "group": "Heart of Darkness" },
+        { "id": "hod3", "name": "Kurzt's Insane", "description": "IPA 7.1% — hoppy, grapefruit, piney", "price": "165", "available": true, "group": "Heart of Darkness" },
+        { "id": "hod4", "name": "Dry Irish", "description": "Stout 4.2% — roasted, coffee notes, dry finish", "price": "165", "available": true, "group": "Heart of Darkness" },
+        { "id": "hod5", "name": "Imperial Phantom", "description": "Stout 11% — four hops, three malts, two spirits", "price": "185", "available": true, "group": "Heart of Darkness" },
+
+        { "id": "ov1", "name": "Holy Water", "description": "Brut IPA 7% — passionfruit, gooseberry, white grape", "price": "175", "available": true, "group": "Overmorrow" },
+        { "id": "ov2", "name": "Rongway Dragonfruit", "description": "Brut IPA 6% — tropical, fruit-forward", "price": "185", "available": true, "group": "Overmorrow" },
+        { "id": "ov3", "name": "Lean On Mia", "description": "Ale 4.3% — soft, malty, mid-bodied", "price": "165", "available": true, "group": "Overmorrow" },
+        { "id": "ov4", "name": "Son Sette", "description": "Ale 5% — rustic grain, light berry & pepper", "price": "165", "available": true, "group": "Overmorrow" },
+
+        { "id": "sap1", "name": "Sapporo Premium Draft Lager", "description": "Japan's oldest brewer — crisp, dry", "price": "65 / 95", "available": true, "group": "Draft & Kombucha · 330ml / 500ml" },
+        { "id": "sap2", "name": "Kombucha", "description": "Jasmine Lychee · Butterfly Pea Flower · Hibiscus", "price": "90", "available": true, "group": "Draft & Kombucha · 330ml / 500ml" },
+
+        { "id": "cf1", "name": "Cappuccino / Latte", "description": "Choco or matcha on request", "price": "70", "available": true, "group": "Coffee · 9am–6pm" },
+        { "id": "cf2", "name": "Snow Café", "description": "Coconut café — creamy, fragrant", "price": "70", "available": true, "group": "Coffee · 9am–6pm" },
+        { "id": "cf3", "name": "Cloud Café", "description": "Salted café — sweet-salty layered foam", "price": "70", "available": true, "group": "Coffee · 9am–6pm" },
+        { "id": "cf4", "name": "W.E. Café", "description": "Egg café — silky, like a Hanoi specialty", "price": "70", "available": true, "group": "Coffee · 9am–6pm" },
+        { "id": "cf5", "name": "Cado Café", "description": "Avocado café — rich, dessert-leaning", "price": "75", "available": true, "group": "Coffee · 9am–6pm" },
+
+        { "id": "sm1", "name": "M.A.C", "description": "Mango, avocado, coconut", "price": "75", "available": true, "group": "Smoothie · 9am–6pm" },
+        { "id": "sm2", "name": "S.P.M", "description": "Strawberry, peach, mango", "price": "75", "available": true, "group": "Smoothie · 9am–6pm" },
+        { "id": "sm3", "name": "Baby Coldpot", "description": "Seasonal mix fruit, yogurt, icecream", "price": "80", "available": true, "group": "Smoothie · 9am–6pm" },
+
+        { "id": "mt1", "name": "Gao", "description": "Rice matcha — toasty, mellow", "price": "75", "available": true, "group": "Matcha · 9am–6pm" },
+        { "id": "mt2", "name": "Mancha", "description": "Mango matcha", "price": "75", "available": true, "group": "Matcha · 9am–6pm" },
+        { "id": "mt3", "name": "Magirls", "description": "Strawberry matcha", "price": "75", "available": true, "group": "Matcha · 9am–6pm" },
+
+        { "id": "te1", "name": "Sapa", "description": "Rice milk tea", "price": "70", "available": true, "group": "Tea · 9am–6pm" },
+        { "id": "te2", "name": "Pol", "description": "Peach, orange, lemongrass", "price": "70", "available": true, "group": "Tea · 9am–6pm" },
+        { "id": "te3", "name": "A Sip", "description": "Ginger / cinnamon tea — served warm", "price": "70", "available": true, "group": "Tea · 9am–6pm" },
+
+        { "id": "jc1", "name": "Fresh Juice", "description": "Orange · lime · pineapple · watermelon · passionfruit", "price": "70", "available": true, "group": "Juice & Soft · 9am–6pm" },
+        { "id": "jc2", "name": "We Passionate", "description": "Pineapple, orange, passionfruit, elderflower", "price": "75", "available": true, "group": "Juice & Soft · 9am–6pm" },
+        { "id": "sd1", "name": "Soft Drinks", "description": "Cola · Cola Light · Sprite · Tonic · Soda", "price": "50", "available": true, "group": "Juice & Soft · 9am–6pm" }
       ]
     },
     {
       "id": "food",
       "label": "Food",
       "label_vi": "Ẩm thực",
-      "blurb": "Honest plates from our open kitchen. Australian pastries, hand-cut sandwiches, sharing platters — open from 10am.",
-      "blurb_vi": "Những món ăn chân thực từ bếp mở. Bánh kiểu Úc, sandwich cắt tay, đĩa chia sẻ — phục vụ từ 10 giờ sáng.",
+      "blurb": "In Sa Pa, good bread is hard to come by — so we built our own bakery. Sandwiches on freshly baked ciabatta, meats smoked in the mountains right here, and Australian pastries from scratch.",
+      "blurb_vi": "Ở Sa Pa, bánh mì ngon rất khó tìm — nên chúng tôi tự mở lò bánh. Sandwich trên bánh ciabatta nướng tại chỗ, thịt hun khói ngay trong núi rừng, và bánh nhân thịt kiểu Úc làm từ con số không.",
       "items": [
-        { "id": "f1", "name": "Bistro's Burger", "description": "Homemade beef patty, bistro's burger sauce, lettuce, cheese & onions on a brioche bun. Build yours: extra patty +60, bacon +30, egg +20", "price": "150", "available": true },
-        { "id": "f2", "name": "Blue Cheese & Bacon Sandwich", "description": "Ta Van smoked bacon, Danish blue cheese, tomato & salad", "price": "130", "available": true },
-        { "id": "f3", "name": "Bell Pepper & Cream Cheese Sandwich", "description": "Roasted bell pepper, Da Nang cream cheese, black olives & salad", "price": "130", "available": true },
-        { "id": "f4", "name": "Homemade Pâté & Smoked Bacon", "description": "Ta Van pâté, Ta Van smoked bacon, pickles, salad & tomato", "price": "110", "available": true },
-        { "id": "f5", "name": "Aussie Beef Pie", "description": "Authentic Australian minced beef pie, flaky pastry", "price": "180", "available": true },
-        { "id": "f6", "name": "Beef, Cheese & Bacon Pie", "description": "Hearty pie with tender beef, gooey cheese and crispy bacon", "price": "180", "available": true },
-        { "id": "f7", "name": "Pepper Steak Pie", "description": "Peppery twist with savory pie-filled tender steak chunks", "price": "190", "available": true },
-        { "id": "f8", "name": "Classic Pork Sausage Roll", "description": "Seasoned ground pork wrapped in flaky pastry", "price": "165", "available": true, "image": "/images/food-pastie.webp" },
-        { "id": "f9", "name": "Ham & Cheese Sausage Roll", "description": "Savory ham and melted cheese, rolled into a tasty treat", "price": "150", "available": true },
-        { "id": "f10", "name": "Spinach & Feta Pastie", "description": "Vegetarian pastie filled with spinach and creamy feta", "price": "170", "available": true },
-        { "id": "f11", "name": "Mixed Platter", "description": "Ta Van cured smoked meats & cheeses — built for sharing", "price": "240", "available": true },
-        { "id": "f12", "name": "Cheese Platter", "description": "Danish blue cheese, Da Nang semi-mature, Gouda", "price": "220", "available": true, "image": "/images/cheese-board.webp" },
-        { "id": "f13", "name": "Sapa Meat Platter", "description": "Mixed meats cured and smoked in Ta Van village", "price": "210", "available": true },
-        { "id": "f14", "name": "Ham & Cheese Panini", "description": "Ham, cheese, onion & tomato wrapped up in crispy panini bread", "price": "110", "available": true },
-        { "id": "f15", "name": "Blue Cheese & Bacon Bruschetta", "description": "Blue cheese & crispy bacon in our mouthwatering bruschetta", "price": "130", "available": true },
-        { "id": "f16", "name": "Bistro's Classic Omelette", "description": "Optional cheese, onion & tomato — served with bread", "price": "120", "available": true },
-        { "id": "f17", "name": "Garden Salad", "description": "Lettuce, tomato, cucumber, bell pepper", "price": "85", "available": true },
-        { "id": "f18", "name": "Homemade Potato Wedges", "description": "Hand-cut, crispy, herby — the way they should be", "price": "75", "available": true }
+        { "id": "sw1", "name": "Blue Velvet", "description": "Ta Van smoked bacon, Danish blue cheese, pickle & salad", "price": "150", "available": true, "group": "Homemade Sandwiches" },
+        { "id": "sw2", "name": "Garden Cream", "description": "Roasted bell pepper, cream cheese, pickle & salad", "price": "150", "available": true, "group": "Homemade Sandwiches" },
+        { "id": "sw3", "name": "The Heritage BLT", "description": "Ta Van smoked bacon, pickle & salad", "price": "130", "available": true, "group": "Homemade Sandwiches" },
+        { "id": "sw4", "name": "The Hunter's Cut", "description": "Ta Van bacon, pâté, pickle & salad", "price": "130", "available": true, "group": "Homemade Sandwiches" },
+
+        { "id": "bb1", "name": "Pan con Tomate", "description": "Bread, tomato sauce & olive oil", "price": "105", "available": true, "group": "Small Bites" },
+        { "id": "bb2", "name": "Toasted Deli Melt", "description": "Ham, Gouda cheese, onion, tomato — on toasted ciabatta", "price": "150", "available": true, "group": "Small Bites" },
+        { "id": "bb3", "name": "Bistro's Classic Omelette", "description": "Cream cheese, onion/tomato & bread", "price": "150", "available": true, "group": "Small Bites" },
+        { "id": "bb4", "name": "Blue Cheese & Bacon Bruschetta", "description": "Blue cheese, crispy bacon & bread", "price": "160", "available": true, "group": "Small Bites" },
+        { "id": "bb5", "name": "Bistro Salad", "description": "Lettuce, tomato, cucumber, bell pepper, Bistro's sauce", "price": "105", "available": true, "group": "Small Bites" },
+        { "id": "bb6", "name": "Potato Wedges", "description": "Homemade wedges with three sauces: ketchup, mayonnaise, honey mustard", "price": "95", "available": true, "group": "Small Bites" },
+        { "id": "bb7", "name": "Mixed Nuts", "description": "Almond, cashew, cracker, biscuits", "price": "85", "available": true, "group": "Small Bites" },
+
+        { "id": "pl1", "name": "Meat Lover", "description": "Ham, bacon, four cheeses (Blue, Gouda, Cream, Emmentaler), cracker & bread", "price": "290", "available": true, "group": "Platters" },
+        { "id": "pl2", "name": "Fruits Insane", "description": "Seasonal fruits, four cheeses, cracker, bread, biscuits & jam", "price": "290", "available": true, "group": "Platters" },
+        { "id": "pl3", "name": "4 Cheeses", "description": "Blue, Gouda, Cream, Emmentaler", "price": "270", "available": true, "image": "/images/cheese-board.webp", "group": "Platters" },
+        { "id": "pl4", "name": "Extra Bread Bowl", "description": "Bottomless ciabatta basket — add to any platter", "price": "40", "available": true, "group": "Platters" },
+
+        { "id": "ds1", "name": "Brownie", "description": "Double chocolate brownie & ice cream", "price": "95", "available": true, "group": "Dessert" },
+        { "id": "ds2", "name": "Cinnamon Butter Toast", "description": "Cinnamon toast with ice cream & seasonal fruits", "price": "95", "available": true, "group": "Dessert" },
+
+        { "id": "bg1", "name": "Homemade Burger", "description": "Homemade beef patty, Bistro's burger sauce, lettuce, Gouda cheese & onions on a homemade bun. Served with chips. Make it yours: extra patty (200g) +65 · extra Gouda +35 · bacon +40 · blue cheese +40 · egg +20 · tomatoes +20 · pickles +20", "price": "195", "available": true, "group": "Best Seller · Burger" },
+
+        { "id": "mp1", "name": "Outback Original", "description": "Authentic Australian minced beef pie, flaky pastry", "price": "240", "available": true, "group": "Australian Meat Pies" },
+        { "id": "mp2", "name": "Ranch Hand's Feast", "description": "Hearty pie with tender beef, gooey cheese & crispy bacon", "price": "240", "available": true, "group": "Australian Meat Pies" },
+        { "id": "mp3", "name": "Black Pepper Blaze", "description": "Peppery twist with savoury pie filled with tender steak chunks", "price": "250", "available": true, "group": "Australian Meat Pies" },
+        { "id": "mp4", "name": "Creamwood Chicken", "description": "Tender chicken and earthy mushrooms, wrapped in a delicious pastry", "price": "230", "available": true, "group": "Australian Meat Pies" },
+
+        { "id": "vp1", "name": "Spinach & Feta Pastie", "description": "Vegetarian pastie filled with spinach and creamy feta", "price": "240", "available": true, "image": "/images/food-pastie.webp", "group": "Vegan Pastie" }
       ]
     }
   ],
   "specials": [
-    { "id": "sp1", "title": "Craft Beer Happy Hour", "title_vi": "Giờ vàng Craft Beer", "description": "Fifty per cent off every Vietnamese craft beer on the board — every evening from five until eight. Pull up a stool.", "description_vi": "Giảm 50% mọi loại craft beer Việt Nam trên bảng — mỗi tối từ 5 đến 8 giờ. Ghé qua và kéo ghế.", "badge": "Daily 5–8pm", "badge_vi": "Hàng ngày 17–20h", "active": true, "featured": true },
-    { "id": "sp2", "title": "Cocktail Hour", "title_vi": "Giờ Cocktail", "description": "Buy one, get one on our full cocktail list. Two in, two out, all afternoon — a proper Sapa siesta.", "description_vi": "Mua một tặng một trên toàn bộ menu cocktail. Cả buổi chiều — một giấc nghỉ trưa Sapa đúng nghĩa.", "badge": "Daily 2–6pm", "badge_vi": "Hàng ngày 14–18h", "active": true },
-    { "id": "sp3", "title": "Live Music & DJ Sets", "title_vi": "Nhạc sống & DJ", "description": "Live acoustic, jazz nights and resident DJ sets most evenings. Check the chalkboard at the door for the week's line-up.", "description_vi": "Acoustic, đêm jazz và DJ thường trú hầu hết các tối. Xem bảng đen ở cửa để biết lịch tuần.", "badge": "Most Nights", "badge_vi": "Hầu hết các tối", "active": true },
-    { "id": "sp4", "title": "Sin Chai Tasting Flight", "title_vi": "Bộ nếm Sin Chai", "description": "A guided trio of Vietnam's own Sa Pa plum liqueur — Sapa Plum, Sa, and Da Nang. Includes a take-home pour.", "description_vi": "Bộ ba rượu mận Sa Pa của Việt Nam — Sapa Plum, Sa, và Đà Nẵng. Kèm theo một ly mang về.", "badge": "House Pick", "badge_vi": "Chọn của quán", "active": true },
-    { "id": "sp5", "title": "Bistro's Burger & a Beer", "title_vi": "Burger & Bia Bistro", "description": "Our homemade beef patty with house sauce on a brioche bun, plus any draught — a daily fixture.", "description_vi": "Patty bò homemade với sốt nhà cùng bánh brioche, kèm một ly bia tươi — phục vụ cả ngày.", "badge": "All Day", "badge_vi": "Cả ngày", "active": true },
-    { "id": "sp6", "title": "Winter Mulled Wine", "description": "Returns next high season. Spiced red wine, star anise, citrus — served warm in a stoneware cup.", "badge": "Seasonal", "active": false }
+    { "id": "sps1", "title": "Free Platter with Every Bottle", "title_vi": "Đĩa nhắm miễn phí với mỗi chai", "description": "Order any bottle of spirit and we'll send out a complimentary platter built for sharing — meats, cheeses, the works.", "description_vi": "Đặt bất kỳ chai rượu mạnh nào và chúng tôi sẽ tặng kèm một đĩa nhắm chia sẻ — thịt, phô mai, đầy đủ.", "badge": "Bottle Combo", "badge_vi": "Combo Chai", "active": true, "featured": true },
+    { "id": "sps2", "title": "6-Shot Combo · 10% Off", "title_vi": "Combo 6 Shot · giảm 10%", "description": "Round up the table and we'll discount the round. Any six shots, ten per cent off the total.", "description_vi": "Tập hợp cả bàn và chúng tôi sẽ giảm giá cả lượt. Sáu shot bất kỳ, giảm 10% tổng đơn.", "badge": "All Day", "badge_vi": "Cả ngày", "active": true },
+    { "id": "sps3", "title": "Café & Fresh", "title_vi": "Cà phê & Tươi", "description": "Vietnamese coffee, matcha, smoothies and fresh juice — our daytime menu, served from nine until six.", "description_vi": "Cà phê Việt, matcha, sinh tố và nước ép tươi — menu ban ngày, phục vụ từ 9 giờ đến 18 giờ.", "badge": "Daily 9am–6pm", "badge_vi": "Hàng ngày 9–18h", "active": true },
+    { "id": "sps4", "title": "Live Music & DJ Sets", "title_vi": "Nhạc sống & DJ", "description": "Live acoustic, jazz nights and resident DJ sets most evenings. Check the chalkboard at the door for the week's line-up.", "description_vi": "Acoustic, đêm jazz và DJ thường trú hầu hết các tối. Xem bảng đen ở cửa để biết lịch tuần.", "badge": "Most Nights", "badge_vi": "Hầu hết các tối", "active": true },
+    { "id": "sps5", "title": "Bistro's Burger & a Beer", "title_vi": "Burger & Bia Bistro", "description": "Our homemade beef patty with house sauce on a brioche-style bun we bake daily, plus any draught — ₫195k, served with chips.", "description_vi": "Patty bò homemade với sốt nhà cùng bánh mì tự nướng, kèm một ly bia tươi — 195k, kèm khoai chiên.", "badge": "All Day", "badge_vi": "Cả ngày", "active": true },
+    { "id": "sps6", "title": "Winter Mulled Wine", "description": "Returns next high season. Spiced red wine, star anise, citrus — served warm in a stoneware cup.", "badge": "Seasonal", "active": false }
   ],
   "gallery": [
     { "src": "/images/storefront.webp", "alt": "bistro.sapa entrance at night with chalkboard listing craft beer, wine, cocktails, pizza & snacks", "caption": "Open All Day", "caption_vi": "Mở cửa cả ngày" },
-    { "src": "/images/cocktail-smoke.webp", "alt": "Green martini cocktail steaming with dry ice at the bar", "caption": "Japanese Slipper" },
-    { "src": "/images/craft-beer.webp", "alt": "Two glasses of Furbrew Vietnamese craft beer beside Chinook IPA cans", "caption": "Furbrew Pours", "caption_vi": "Furbrew bên ly" },
-    { "src": "/images/cocktail-corona.webp", "alt": "Tequila Sunrise cocktail with a Corona bottle and wildflowers on the bar", "caption": "Tequila Sunrise" },
-    { "src": "/images/cheese-board.webp", "alt": "Cheese platter with crackers, almonds, olives and bread", "caption": "Cheese Platter", "caption_vi": "Đĩa phô mai" },
+    { "src": "/images/cocktail-smoke.webp", "alt": "Smoking green martini cocktail at the bar", "caption": "Cocktail Hour", "caption_vi": "Giờ Cocktail" },
+    { "src": "/images/craft-beer.webp", "alt": "Two glasses of Vietnamese craft beer on coasters", "caption": "Craft Beer Pours", "caption_vi": "Craft Beer" },
+    { "src": "/images/cocktail-corona.webp", "alt": "Bar table with cocktail, beer and wildflowers", "caption": "On The Pass", "caption_vi": "Trên quầy" },
+    { "src": "/images/cheese-board.webp", "alt": "Cheese platter with crackers, almonds, olives and bread", "caption": "4 Cheeses", "caption_vi": "Đĩa 4 phô mai" },
     { "src": "/images/food-pastie.webp", "alt": "Pastie with green salad and a fresh cappuccino on a slate plate", "caption": "From the Kitchen", "caption_vi": "Từ bếp" },
     { "src": "/images/chess-wine.webp", "alt": "Chess set on a wooden table beside a glass of rosé and a candle", "caption": "Slow Evenings", "caption_vi": "Đêm chậm rãi" },
     { "src": "/images/dj-livemusic.webp", "alt": "Resident DJ playing a set in front of Furbrew graffiti", "caption": "DJ Nights", "caption_vi": "Đêm DJ" },

@@ -14,14 +14,29 @@ export default function About({ about }: { about: AboutBlock }) {
   useEffect(() => {
     if (!ref.current) return;
     const el = ref.current;
+    // Safety: if anything goes wrong with the observer, show content after a beat.
+    const fallback = window.setTimeout(() => setVisible(true), 600);
+    if (typeof IntersectionObserver === "undefined") {
+      setVisible(true);
+      return () => window.clearTimeout(fallback);
+    }
     const obs = new IntersectionObserver(
       (entries) => {
-        entries.forEach((e) => e.isIntersecting && setVisible(true));
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            setVisible(true);
+            obs.disconnect();
+            window.clearTimeout(fallback);
+          }
+        });
       },
-      { threshold: 0.18 }
+      { rootMargin: "0px 0px -10% 0px", threshold: 0.01 }
     );
     obs.observe(el);
-    return () => obs.disconnect();
+    return () => {
+      obs.disconnect();
+      window.clearTimeout(fallback);
+    };
   }, []);
 
   const body = tr(about.body, about.body_vi);
